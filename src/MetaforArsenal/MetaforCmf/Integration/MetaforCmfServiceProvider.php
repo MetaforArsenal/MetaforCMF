@@ -3,6 +3,7 @@
 namespace MetaforArsenal\MetaforCmf\Integration;
 
 use Illuminate\Support\ServiceProvider;
+use MetaforArsenal\MetaforCmf\MetaforCmf;
 
 class MetaforCmfServiceProvider extends ServiceProvider
 {
