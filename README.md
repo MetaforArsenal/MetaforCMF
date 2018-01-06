@@ -17,4 +17,4 @@ Through [Composer](https://getcomposer.org/):
 composer require metaforarsenal/metaforcmf
 ```
  
-Publish the assets via: `php artisan vendor:publish --provider="MetaforArsenal/MetaforCmf\Integration\MetaforCmfServiceProvider`
+Publish the assets via: `php artisan vendor:publish --provider="MetaforArsenal\MetaforCmf\Integration\MetaforCmfServiceProvider`
