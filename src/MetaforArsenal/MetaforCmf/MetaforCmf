@@ -1,0 +1,10 @@
+<?php 
+
+namespace MetaforArsenal\MetaforCmf;
+
+class MetaforCmf
+{
+
+    const VERSION = '0.0.1';
+
+}
