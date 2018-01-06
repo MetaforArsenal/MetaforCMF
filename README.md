@@ -6,3 +6,15 @@
 The Metafor Content Management Framework based on Laravel.
 
 Not even close to alpha!
+
+## Installation
+
+> This CMF requires PHP 7.0 or higher and Laravel 5.5.
+
+Through [Composer](https://getcomposer.org/):
+
+```
+composer require metaforarsenal/metaforcmf
+```
+ 
+Publish the assets via: `php artisan vendor:publish --provider="MetaforArsenal/MetaforCmf\Integration\MetaforCmfServiceProvider`
