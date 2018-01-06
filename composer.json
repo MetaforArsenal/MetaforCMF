@@ -1,0 +1,27 @@
+{
+  "name": "metaforarsenal/metaforcmf",
+  "description": "The Metafor Content Management Framework based on Laravel",
+  "keywords": ["laravel", "cmf", "backend", "framework", "content", "admin", "metafor"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Metafor"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "MetaforArsenal\\MetaforCmf": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "MetaforArsenal\\MetaforCMF\\Integration\\MetaforCmfServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev"
+}
